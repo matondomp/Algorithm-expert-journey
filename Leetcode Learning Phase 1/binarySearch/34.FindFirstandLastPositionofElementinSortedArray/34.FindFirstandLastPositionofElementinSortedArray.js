@@ -5,7 +5,6 @@
  */
  var searchRange = function(nums, target) {
    let left = 0, right = nums.length - 1
-   let res = [Infinity, -1]
    while(left < right) {
        let middle = Math.floor((right + left) / 2)
        
